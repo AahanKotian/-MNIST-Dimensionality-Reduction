@@ -1,8 +1,4 @@
 # -MNIST-Dimensionality-Reduction
-I will work with the famous MNIST dataset, which is a set of images of handwritten digits https://en.wikipedia.org/wiki/MNIST_database.
+This experiment aims to analyze the effect of various dimensionality reduction techniques on the classification of handwritten digits from the MNIST dataset using a Random Forest model. First, a Random Forest will be trained on the original MNIST data to serve as a baseline. Principal Component Analysis (PCA) will then be used to reduce the dimensionality of the features, and the Random Forest will be retrained on this reduced dataset to compare performance. Additionally, the nonlinear techniques t-Distributed Stochastic Neighbor Embedding (t-SNE) and Locally Linear Embedding (LLE) will be applied for dimensionality reduction and visualization. Comparing the classification results on the original versus reduced data processed with PCA, t-SNE, and LLE will provide insights into how these dimensionality reduction methods impact model performance.
 
-Handwritten Digit Recognition:
-This project aims to classify images of handwritten digits from 0-9 using the popular MNIST dataset and a multi-layer perceptron neural network model.
 
-The Dataset:
-The MNIST dataset contains 60,000 training images and 10,000 test images of handwritten digits. Each image is 28x28 pixels in size and labeled with the correct digit class from 0-9.
